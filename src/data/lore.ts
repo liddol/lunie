@@ -1,0 +1,28 @@
+export interface AncientLore {
+  culture: string;
+  glyph: string;
+  fact: string;
+}
+
+export const ANCIENT_LORE: AncientLore[] = [
+  { culture: "Babylon · c. 700 BCE", glyph: "𒀭", fact: "Babylonian astronomers tracked the moon's 18.6-year Saros cycle on clay tablets, predicting eclipses with such precision that their calculations were accurate to within two hours over centuries." },
+  { culture: "Ancient Egypt", glyph: "𓂀", fact: "Egyptians believed the moon was the left eye of Horus — the right being the sun. Its monthly waning and waxing mirrored his eternal battle with Set, whose wounds healed with each new cycle." },
+  { culture: "Ancient Rome", glyph: "LVNA", fact: 'Roman soldiers were warned never to sleep in direct moonlight, lest they be driven mad. The word "lunatic" descends directly from Luna, the Roman moon goddess, whose gaze was thought to unsettle the mind.' },
+  { culture: "Sumer · c. 3000 BCE", glyph: "☽", fact: "The Sumerian moon god Nanna (Sin) was lord of wisdom and the keeper of time. Each new moon was a sacred festival during which debts were forgiven, prisoners released, and no work performed." },
+  { culture: "Ancient Greece", glyph: "Σ", fact: "The secret Thesmophoria festival was held by Athenian women at the full moon each autumn — three days of rites honoring Demeter that men were absolutely forbidden to witness, under penalty of death." },
+  { culture: "Ancient China", glyph: "月", fact: "Chang'e, the moon goddess, drank the elixir of immortality and floated to the moon forever. Each Mid-Autumn full moon, families offer moon cakes beneath the open sky in her honor — a tradition 3,000 years old." },
+  { culture: "Maya · c. 200 CE", glyph: "𝋠", fact: "The Maya Dresden Codex contains lunar tables tracking 405 consecutive lunations across 11,960 days — accurate to within one day over a 300-year span, calculated without telescopes or mechanical instruments." },
+  { culture: "Norse Mythology", glyph: "ᛗ", fact: "In Norse myth, the moon (Máni) was a boy driving a silver chariot across the night sky, forever chased by the wolf Hati. At Ragnarök, the wolf would finally catch and swallow him, ending the moon's journey." },
+  { culture: "Mesopotamia · c. 800 BCE", glyph: "★", fact: 'A lunar eclipse was an omen of royal death in ancient Mesopotamia. To deflect the curse, kings installed a "substitute king" — a commoner who ruled briefly in their name, then was ritually killed so the real king could safely return.' },
+  { culture: "Celtic · pre-Roman", glyph: "◉", fact: 'Celtic Druids divided the year by eight lunar festivals and announced each one only after watching the moon rise in the correct phase. Their word for "month" and "moon" were the same: the calendar was the moon.' },
+  { culture: "Ancient India", glyph: "॰", fact: "The moon god Chandra rode a chariot of white horses and was considered the source of all nourishment. Bathing in moonlight on the night of the full moon was prescribed in Ayurvedic texts as a cure for fever and grief." },
+  { culture: "Polynesia · traditional", glyph: "✦", fact: "Polynesian wayfinders crossed 2,500 miles of open ocean without instruments by reading the moon. They memorized which stars rose just below the moon in each phase, using this relationship to hold course across the Pacific." },
+  { culture: "Ancient Athens", glyph: "ΣΕΛ", fact: "Athenian generals sometimes delayed or refused battle because the moon was in an inauspicious phase. The Spartan relief force arrived too late at Marathon because they waited for the full moon to pass before marching." },
+  { culture: "Ancient Aztec", glyph: "🐇", fact: "The Aztec moon god Tecuciztecatl was too cowardly to leap into the fire and become the sun, so a humbler god became the sun instead. The gods struck Tecuciztecatl with a rabbit to dim his light — which is why the Aztec saw a rabbit, not a face, in the full moon." },
+  { culture: "Ancient Egypt", glyph: "ȸ", fact: "Thoth, the ibis-headed god of wisdom, was the keeper of the lunar calendar. He maintained two separate reckonings of time — a lunar religious calendar and a solar civil calendar — whose drift apart over centuries created floating sacred festivals." },
+  { culture: "Ancient Rome · 45 BCE", glyph: "Ⅱ", fact: 'Monday takes its name directly from the moon: in Latin, Lunae dies — "day of the moon." This naming was inherited across Europe, surviving in English as Monday, French lundi, and Italian lunedì, all carrying Luna\'s name.' },
+  { culture: "Ancient Greece", glyph: "Ε", fact: "The Oracle at Delphi would only prophesy on the seventh day of each lunar month — the day considered sacred to Apollo. Supplicants sometimes waited weeks for the correct moon before they could ask their questions." },
+  { culture: "Hebrew tradition", glyph: "ח", fact: 'The Hebrew calendar begins each month at the new moon (Rosh Chodesh — "head of the month"), a minor holiday observed for over 3,000 years. In ancient times, witnesses who spotted the new crescent moon were raced by horse to Jerusalem to report it.' },
+  { culture: "Mesopotamia · c. 2000 BCE", glyph: "⌖", fact: "Mesopotamian farmers planted crops during the waxing moon, believing its growing light drew moisture upward through the soil. Harvests were timed to the full moon, when the grain's vital force was thought to be at its peak." },
+  { culture: "Ancient Greece", glyph: "Σ", fact: "The goddess Selene fell in love with the shepherd Endymion and asked Zeus to grant him eternal sleep so she could visit him each night as he lay on a hillside in Caria. Every full moon, she was said to pause her chariot above him." }
+];

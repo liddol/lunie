@@ -1,0 +1,6 @@
+{
+  "name": "Lunie — Lunar Almanac",
+  "description": "An interactive static lunar almanac featuring real-time moon phase calculations, full moon lore, celestial sky position tracking, and rituals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
