@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router, Route, Switch } from 'wouter';
+import { useHashLocation } from 'wouter/use-hash-location';
 import { HomePage } from './pages/HomePage';
 import { LibraryPage } from './pages/LibraryPage';
 import { MoonDetailPage } from './pages/MoonDetailPage';
@@ -22,13 +23,8 @@ function NotFoundPage() {
 }
 
 export default function App() {
-  // Determine base path for GitHub pages if hosted under subpath (e.g. /moonbee) or root
-  const pathname = window.location.pathname;
-  const isMoonbeeSubpath = pathname.startsWith('/moonbee');
-  const basePath = isMoonbeeSubpath ? '/moonbee' : '';
-
   return (
-    <Router base={basePath}>
+    <Router hook={useHashLocation}>
       <div className="relative min-h-screen w-full overflow-x-hidden selection:bg-primary selection:text-primary-foreground">
         <StarryBackground />
         <div className="relative z-10">
